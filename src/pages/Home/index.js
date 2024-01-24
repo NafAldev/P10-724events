@@ -21,10 +21,10 @@ const Page = () => {
 
 
   useEffect(() => {
-    console.log("last:", last);
-    console.log("last?.cover:", last?.cover);
-    console.log("last?.title:", last?.title);
-    console.log("last?.date:", last?.date);
+    // console.log("last:", last);
+    // console.log("last?.cover:", last?.cover);
+    // console.log("last?.title:", last?.title);
+    // console.log("last?.date:", last?.date);
   }, [last]);
 
   return <>

@@ -14,7 +14,7 @@ export const api = {
     try {
       const json = await fetch("/events.json");
       const data = await json.json();
-      console.log("Data loaded:", data);
+      // console.log("Data loaded:", data);
       return data;
     } catch (error) {
       console.error("Error loading data:", error);
